@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.penchal.model.FourWheeler" 
+    project="HB-Insert-Inheritance-MultipleRecords-In-Single-Table" 
+    file="/HB-Insert-Inheritance-MultipleRecords-In-Single-Table/src/com/penchal/model/FourWheeler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="180" x="332" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.penchal.model.User" 
+    project="HB-Insert-Inheritance-MultipleRecords-In-Single-Table" 
+    file="/HB-Insert-Inheritance-MultipleRecords-In-Single-Table/src/com/penchal/model/User.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="127" x="332" y="-9"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.penchal.model.Vehical" 
+    project="HB-Insert-Inheritance-MultipleRecords-In-Single-Table" 
+    file="/HB-Insert-Inheritance-MultipleRecords-In-Single-Table/src/com/penchal/model/Vehical.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="162" x="499" y="-9"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.penchal.model.TwoWheeler" 
+    project="HB-Insert-Inheritance-MultipleRecords-In-Single-Table" 
+    file="/HB-Insert-Inheritance-MultipleRecords-In-Single-Table/src/com/penchal/model/TwoWheeler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="181" x="552" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="5">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
